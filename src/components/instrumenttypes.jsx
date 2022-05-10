@@ -11,6 +11,7 @@ export default class InstrumentTypes extends React.Component {
                                 <h3>Synthesizers</h3>
                             </div>
                             <div className="card-body">
+                                <img src={'https://static.thenounproject.com/png/19447-200.png'} alt="" />
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, optio!</p>
                                 <button className="btn btn-warning">See More</button>
                             </div>
@@ -24,6 +25,7 @@ export default class InstrumentTypes extends React.Component {
                                 </h3>
                             </div>
                             <div className="card-body">
+                                <img src={'https://static.thenounproject.com/png/451806-200.png'} alt="" />
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, sapiente!</p>
                                 <button className="btn btn-warning">See More</button>
                             </div>
@@ -35,6 +37,7 @@ export default class InstrumentTypes extends React.Component {
                                 <h3>Accessories</h3>
                             </div>
                             <div className="card-body">
+                                <img src={'https://static.thenounproject.com/png/120557-200.png'} alt="" />
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, optio.</p>
                                 <button className="btn btn-warning">See More</button>
                             </div>
