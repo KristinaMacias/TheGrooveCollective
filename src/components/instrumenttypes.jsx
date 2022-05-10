@@ -8,7 +8,7 @@ export default class InstrumentTypes extends React.Component {
                     <div className="col">
                         <div className="card bg-secondary text-light">
                             <div className="card-header">
-                                <h3>Synthesizers</h3>
+                                <h3>News</h3>
                             </div>
                             <div className="card-body">
                                 <img src={'https://static.thenounproject.com/png/19447-200.png'} alt="" />
@@ -21,7 +21,7 @@ export default class InstrumentTypes extends React.Component {
                         <div className="card bg-secondary text-light mb-2">
                             <div className="card-header">
                                 <h3>
-                                    Samplers & Grooveboxes
+                                    Meetups
                                 </h3>
                             </div>
                             <div className="card-body">
