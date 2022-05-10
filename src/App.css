@@ -16,3 +16,12 @@
 .synth-icon {
   height: 150px;
 }
+
+.sp {
+  height: 300px;
+  opacity: none;
+}
+
+.discussion {
+  border: #4444 solid 1px;
+}

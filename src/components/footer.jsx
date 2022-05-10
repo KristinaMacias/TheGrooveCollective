@@ -5,7 +5,7 @@ export default class Footer extends React.Component {
         return (
             <div>
                 <div class="text-center p-4 bg-dark text-light">
-                    © 2022 Copyright:
+                    © 2022 Copyright: The Groove Collective
                 </div>
             </div>
         )

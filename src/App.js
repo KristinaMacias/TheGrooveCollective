@@ -4,6 +4,7 @@ import Navbar from './components/navabar';
 import About from './components/about';
 import InstrumentTypes from './components/instrumenttypes';
 import Footer from './components/footer';
+import GrooveboxRack from './components/groovebox-sampler';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <About />
       <InstrumentTypes />
+      <GrooveboxRack />
       <Footer />
     </div>
   );

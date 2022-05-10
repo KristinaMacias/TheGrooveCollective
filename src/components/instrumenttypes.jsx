@@ -18,7 +18,7 @@ export default class InstrumentTypes extends React.Component {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card bg-secondary text-light">
+                        <div className="card bg-secondary text-light mb-2">
                             <div className="card-header">
                                 <h3>
                                     Samplers & Grooveboxes
