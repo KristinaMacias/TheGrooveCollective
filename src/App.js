@@ -1,21 +1,39 @@
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navabar';
 import About from './components/about';
-import InstrumentTypes from './components/instrumenttypes';
 import Footer from './components/footer';
 import GrooveboxRack from './components/groovebox-sampler';
+import FeaturedSections from './components/featuredsections'
 
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <About />
-      <InstrumentTypes />
-      <GrooveboxRack />
-      <Footer />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <About />
+        <FeaturedSections />
+        <GrooveboxRack />
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default App;
+
+
+// function App() {
+//   return (
+//     <div>
+//       <Navbar />
+//       <About />
+//       <InstrumentTypes />
+//       <GrooveboxRack />
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// export default App;

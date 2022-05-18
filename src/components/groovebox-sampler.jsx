@@ -1,4 +1,5 @@
 import React from "react";
+import DiscussionForm from "./discussionForm";
 
 export default class GrooveboxRack extends React.Component {
     render() {
@@ -22,27 +23,8 @@ export default class GrooveboxRack extends React.Component {
                                     <h3>Overview</h3>
                                     <p>Roland's compact cult sampler SP-404 undergoes an extensive revision with the version MkII, which can be seen. With now 17 velocity sensitive pads you have access to even more samples than before. The internal memory holds an impressive 16 GB and gives access to 2560 samples and 2560 patterns, distributed over 16 samples x 10 banks and 16 projects. The display (finally) allows graphical displays, so you can cut sounds and loops directly on the device, among other things. Inputs for microphone/guitar and line signals allow the recording of audio material in the device, resampling is also integrated and finished sounds and loops with the desired settings can be created as a new sample. In chromatic mode samples can be played with a fixed pitch, this is especially useful for synth sounds. With the sequencer, beats and loops with a length of up to 64 steps (4 bars) can be recorded. Live functions such as Reverse and Roll provide the necessary variation when recording and jamming. The tempo of loops is automatically detected.</p>
                                 </div>
-                                
-                                {/* Discussion */}
-                                <div className="discussion row mt-5 p-4 bg-black text-white">
-                                    <h3>Discussion</h3>
-                                    <hr />
-                                    <form>
-                                        <input type="text" className="form-control-lg container-fluid text-center mb-4" placeholder="Enter a Username" />
-                                        <div class="md-form">
-                                            <textarea id="form16" className="md-textarea form-control-lg container-fluid text-center mb-4" placeholder="Start a Discussion" rows="3"></textarea>
-                                        </div>
-                                    </form>
-                                    <h3>Comments</h3>
-                                    <hr className="mt-3 mb-3"/>
-                                    <ul>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis voluptatem commodi delectus aut, inventore deleniti. Vel quia sed facere illum corporis saepe sequi magnam laborum odio, architecto voluptatum veritatis voluptatibus?</p>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis voluptatem commodi delectus aut, inventore deleniti. Vel quia sed facere illum corporis saepe sequi magnam laborum odio, architecto voluptatum veritatis voluptatibus?</p>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis voluptatem commodi delectus aut, inventore deleniti. Vel quia sed facere illum corporis saepe sequi magnam laborum odio, architecto voluptatum veritatis voluptatibus?</p>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis voluptatem commodi delectus aut, inventore deleniti. Vel quia sed facere illum corporis saepe sequi magnam laborum odio, architecto voluptatum veritatis voluptatibus?</p>
-                                    </ul>
-                                </div>
                             </div>
+                            <DiscussionForm />
                         </div>
                     </div>
                 </div>
